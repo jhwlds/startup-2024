@@ -1,12 +1,26 @@
-# startup-2024
-
 [Link to Notes](./notes.md)
 
-hello
+# **startup-2024**
 
-hi how are you
+## **Specification Deliverable**
+The following is an example of the required information for the Startup Specification deliverable
 
-this is howon from howon branch
+### **Elevator pitch**
 
-hi this is from git hub main page
+### **Design**
 
+### **Key features**
+
+### **Technologies**
+
+## **HTML deliverable**
+
+## **CSS deliverable**
+
+## **React deliverable**
+
+## **Service deliverable**
+
+## **DB/Login deliverable**
+
+## **WebSocket deliverable**
