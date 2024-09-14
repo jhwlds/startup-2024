@@ -9,8 +9,8 @@
 Imagine exploring a portfolio that’s not just a static resume, but an interactive experience! My personal website showcases my skills, projects, and achievements in a fresh and engaging way. Beyond just reading about my journey, visitors can dive into a fun, simple maze mini-game that brings my story to life. Whether it's trying to get out of maze with the information from protfolio, this interactive element keeps you engaged while learning more about me. It’s more than just a resume – it’s a unique way to connect with my professional journey!
 
 ### **Design**
-![Alt text](Desktop - 1.jpg)
-![Alt text](Desktop - 2.jpg)
+![Desktop-1](./Desktop-1.jpg)
+![Desktop-2](./Desktop-2.jpg)
 
 
 ### **Key features**
