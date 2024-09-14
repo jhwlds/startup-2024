@@ -19,8 +19,8 @@ Imagine exploring a portfolio that’s not just a static resume, but an interact
 - Top 5 ranks from game will be saved
 
 ### **Technologies**
-![Mock](Desktop - 1.jpg)
-![Mock](Desktop - 2.jpg)
+![Desktop - 1.jpg]
+![Desktop - 2.jpg]
 
 I am going to use the required technologies in the following ways.
 
