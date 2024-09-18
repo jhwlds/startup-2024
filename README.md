@@ -33,7 +33,7 @@ I am going to use the required technologies in the following ways.
   - Set the questions tree for the game
   - Choosing answer in the game
   - Recording the time during game
-  
+- **Java script** - Handles interactivity, game logic, communication with the back-end via API calls, and validation of login forms.
 - **DB/Login** - Store users, choices, and time record in database. Register and login users. Credentials securely stored in database. Can't play game unless authenticated.
 - **WebSocket** - As each user make choices in the game, their time result are broadcast to all other users.
 
