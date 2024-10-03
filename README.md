@@ -40,6 +40,7 @@ I am going to use the required technologies in the following ways.
 
 ## **HTML deliverable**
 - **HTML pages** - Two HTML pages for portfolio info and game page
+- **3rd Party Services** - I brought my profile image by using url on online.
 - **Links** - Play button links to the game page.
 - **Text** - My resume's information and questions and selections in game are represented by a textual description.
 - **Images** - I posted my profile picture. Also, I am thinking adding more pictures that are related to my resume.
