@@ -1,17 +1,25 @@
+*{font-family: 'Roboto', sans-serif;}
+
 .profile-image {
     width: 100px;
-    height: 130px;
+    height: auto;
     border-radius: 55%;
-    margin: 0 auto;
-    display: block;
 }
 
 .profile-container {
+    margin: 70px auto;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .profile-links {
+
     display: flex;
+    margin-right: 10px;
     flex-direction: column; 
+}
+
+.profile-links > p {
+    text-align: center;
 }
