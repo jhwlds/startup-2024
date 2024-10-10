@@ -1,8 +1,11 @@
-*{font-family: 'Roboto', sans-serif;}
+*{
+    font-family: 'Roboto', sans-serif;
+}
 
 .profile-image {
     width: 100px;
     height: auto;
+
     border-radius: 55%;
 }
 
@@ -41,4 +44,17 @@
 
 .play-btn > button:hover {
     background-color: black;
+}
+
+.edu-img {
+    width: 50vw;
+    height: auto;
+
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
 }
