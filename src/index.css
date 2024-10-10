@@ -7,19 +7,38 @@
 }
 
 .profile-container {
-    margin: 70px auto;
+    margin: 70px auto 30px auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .profile-links {
-
     display: flex;
-    margin-right: 10px;
+    margin-left: 30px;
     flex-direction: column; 
 }
 
 .profile-links > p {
     text-align: center;
+}
+
+.play-btn {
+    text-align: center;
+}
+
+.play-btn > button {
+    background-color: rgb(212, 173, 173);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 auto;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.play-btn > button:hover {
+    background-color: black;
 }
