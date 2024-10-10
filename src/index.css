@@ -1,3 +1,17 @@
-.top-menu {
+.profile-image {
+    width: 100px;
+    height: 130px;
+    border-radius: 55%;
+    margin: 0 auto;
+    display: block;
+}
 
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-links {
+    display: flex;
+    flex-direction: column; 
 }
