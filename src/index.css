@@ -10,9 +10,9 @@
 ul, li {
     list-style: none;
 }
-
 a {
     text-decoration: none;
+    color: #fff;
 }
 
 button {
@@ -30,13 +30,38 @@ body {
 .menu {
     display: flex;
     text-align: center;
+    margin: 0 auto;
 }
 
 .menuDiv {
     display: flex;
     width: 1200px;
+    justify-content: space-between;
+    border-bottom: #fff 1px solid;
+    margin: 25px auto;
+    
 }
 
 .menuUl {
     display: flex;
+}
+
+.menuUl > li {
+    margin: 0 10px;
+}
+
+.playBtn {
+    float: left;
+}
+
+.styleBtn {
+    background-color: #fff;
+    color: #181818;
+    border-radius: 30px;
+    padding: 3px 25px;
+    margin-bottom: 15px;
+}
+
+.icon {
+    text-align: center;
 }
