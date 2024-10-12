@@ -1,9 +1,8 @@
-*,
-*::before,
-*::after {
+* {
     margin: 0;
     padding: 0;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -81,18 +80,23 @@ button {
     text-align: center;
 }
 
-.profile-image {
-    width: 50px;
-}
-
 .profile-container {
     width: 1000px;
     margin: 60px auto;
     display: grid;
-    grid-template-columns: 350px 200px 200px;
+    grid-template-columns: 450px 200px 200px;
     grid-template-rows: 200px 200px;
     grid-gap: 20px;
     justify-content: center;
+}
+
+.item {
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.item:hover {
+    border: #0b89f7 2px solid;
 }
 
 .item:nth-child(1) {
@@ -138,4 +142,31 @@ button {
 
 .item:nth-child(5) > a {
     color: #fff;
+}
+
+.profileIcon {
+    width: 30px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 90%;
+}
+
+.profileInfo {
+    margin-left: 30px;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.profileInfo > p {
+    font-weight: lighter;
+}
+
+.profileBox {
+    display: flex;
+    align-items: center;
 }
