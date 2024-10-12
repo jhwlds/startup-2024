@@ -84,8 +84,8 @@ button {
     width: 1000px;
     margin: 60px auto;
     display: grid;
-    grid-template-columns: 450px 200px 200px;
-    grid-template-rows: 200px 200px;
+    grid-template-columns: 500px 250px 250px;
+    grid-template-rows: 250px 250px;
     grid-gap: 20px;
     justify-content: center;
 }
@@ -169,4 +169,130 @@ button {
 .profileBox {
     display: flex;
     align-items: center;
+}
+
+.eduSec{
+    width: 1000px;
+    margin: 150px auto;
+}
+
+.eduSec > h2 {
+    margin-bottom: 20px;
+}
+
+.eduGrid{
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 250px 250px 500px;
+    grid-template-rows: 250px 250px;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.edu-item:nth-child(1) {
+    padding: 30px;
+    text-align: center;
+    background-color: #520ff7;
+    border-radius: 50px;
+}
+.edu-item:nth-child(2) {
+    padding: 20px;
+    background-color: #393939;
+    border-radius: 50px;
+}
+
+.edu-item:nth-child(3) {
+    padding: 20px;
+    grid-row: span 2;
+    align-items: center;
+}
+
+.edu-item:nth-child(4) {
+    padding: 20px;
+    background-color: #F5F5F5;
+    border-radius: 50px;
+}
+
+.edu-item:nth-child(5) {
+    padding: 20px;
+    background-color: #520ff7;
+    border-radius: 50px;
+}
+
+.skillGrid{
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.skillSec > h2 {
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.skill-icon:nth-child(1) {
+    padding: 20px;
+}
+.skill-icon:nth-child(2) {
+    padding: 20px;
+}
+
+.skill-icon:nth-child(3) {
+    padding: 20px;
+}
+
+.skill-icon:nth-child(4) {
+    padding: 20px;
+}
+
+.skill-icon:nth-child(5) {
+    padding: 20px;
+}
+
+.expGrid{
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 350px;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.expSec {
+    margin-top: 150px;
+}
+
+.expSec > h2 {
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+
+.exp-icon:nth-child(1) {
+    padding: 20px;
+    background-color: #520ff7;
+    border-radius: 50px;
+}
+.exp-icon:nth-child(2) {
+    padding: 20px;
+    background-color: #520ff7;
+    border-radius: 50px;
+}
+
+.exp-icon:nth-child(3) {
+    padding: 20px;
+    background-color: #520ff7;
+    border-radius: 50px;
+}
+
+.exp-icon:nth-child(4) {
+    padding: 20px;
+    background-color: #520ff7;
+    border-radius: 50px;
 }
