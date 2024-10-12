@@ -276,12 +276,12 @@ button {
 
 .exp-icon:nth-child(1) {
     padding: 20px;
-    background-color: #520ff7;
+    background-color: #393939;
     border-radius: 50px;
 }
 .exp-icon:nth-child(2) {
     padding: 20px;
-    background-color: #520ff7;
+    background-color: #393939;
     border-radius: 50px;
 }
 
@@ -295,4 +295,13 @@ button {
     padding: 20px;
     background-color: #520ff7;
     border-radius: 50px;
+}
+
+.footer{
+    border-top: #fff 1px solid;
+    top: 30px;       
+    left: 0;
+    right: 0;       
+    width: 1200px;
+    margin: 150px auto; 
 }
