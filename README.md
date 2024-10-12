@@ -48,6 +48,13 @@ I am going to use the required technologies in the following ways.
 
 ## **CSS deliverable**
 
+- **Header, footer, and main content body** - There are contents in each sections.
+- **Navigation elements** - I made underlines and made a link to specific section of page.
+- **Responsive to window resizing** - My elements are made of Gird. I checked they are responsive for size of screen.
+- **Application elements** - Used good contrast and whitespace.
+- **Application text content** - Consistent fonts.
+- **Application images** - I have put icons, and images. I am planning to add more images as I continue with JS.
+
 ## **React deliverable**
 
 ## **Service deliverable**
