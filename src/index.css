@@ -196,6 +196,10 @@ button {
     background-color: #520ff7;
     border-radius: 50px;
 }
+.edu-item:nth-child(1) > img {
+    width: 150px;
+    margin-top: 20px;
+}
 .edu-item:nth-child(2) {
     padding: 20px;
     background-color: #393939;
@@ -254,6 +258,9 @@ button {
     padding: 20px;
 }
 
+.skillName {
+    text-align: center;
+}
 .expGrid{
     width: 1000px;
     margin: 0 auto;
@@ -304,4 +311,8 @@ button {
     right: 0;       
     width: 1200px;
     margin: 150px auto; 
+}
+
+.footer > a {
+    color: #fff;
 }
