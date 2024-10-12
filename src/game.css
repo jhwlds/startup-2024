@@ -1,19 +1,37 @@
-.home-btn{
+.two-box{
     text-align: center;
-    margin: 5vh;
+    margin: 20vh auto;
+    width: 70%;
 }
 
 .game-box{
-    display: flex;
-    border: 10px solid #1078a9;
 
 }
 
 .rank-box{
-    border: 10px solid #1078a9;
+
 }
 
-.two-box{
-    display: flex;
-    border: 15px solid #1078a9;
+.gameQ{
+    margin-top: 30px;
+}
+
+.gameA{
+    margin: 30px;
+}
+
+.gameA > button:nth-child(1) {
+    background-color: #F5F5F5;
+    color: black;
+    margin-right: 20px;
+    padding: 20px 60px; 
+    border-radius: 15px;
+}
+
+.gameA > button:nth-child(2) {
+    background-color: #520FF7;
+    color: #fff;
+    margin-left: 20px;
+    padding: 20px 60px; 
+    border-radius: 15px;
 }
