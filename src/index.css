@@ -40,13 +40,14 @@ button {
 
 .menuDiv {
     position: fixed; 
-    top: 30px;       
+    padding-top: 30px;       
     left: 0;
     right: 0;       
     display: flex;
     justify-content: space-between;
     border-bottom: #fff 1px solid;
     margin: 0 10%;  
+    background-color: #181818;
 }
 
 .menuUl {
@@ -329,6 +330,10 @@ button {
         box-sizing: border-box;
     }
     .menuUl {
+        display: flex;
+    }
+
+    .menuUl > li:not(:first-child) {
         display: none;
     }
     header {
@@ -411,11 +416,5 @@ button {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-    }
-
-    footer {
-        width: 350px;
-        padding-left: 5%;
-        padding-right: 5%;
     }
 }
