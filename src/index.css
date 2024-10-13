@@ -41,6 +41,7 @@ button {
 .menuDiv {
     position: fixed; 
     padding-top: 30px;       
+    top: 0;
     left: 0;
     right: 0;       
     display: flex;
