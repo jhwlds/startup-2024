@@ -322,13 +322,10 @@ button {
     }
     
     .menuDiv {
-        position: fixed;
-        top: 20px;       
-        left: 0;
-        right: 0;
-        width: 320px;
-        box-sizing: border-box;
+        width: 90%;
+        margin: 0 5%;
     }
+
     .menuUl {
         display: flex;
     }
