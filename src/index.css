@@ -234,6 +234,11 @@ button {
     justify-content: center;
 }
 
+.skillSec{
+    width: 1000px;
+    margin: 150px auto;
+}
+
 .skillSec > h2 {
     width: 1000px;
     margin: 0 auto;
