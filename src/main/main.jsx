@@ -4,11 +4,11 @@ import './main.css';
 
 export function Main() {
 
-  // 특정 위치로 이동할 때 살짝 더 밑으로 스크롤하는 함수
+
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
-      const yOffset = -100; // 원하는 만큼의 추가 스크롤 (여기선 50px 위로 추가 조정)
+      const yOffset = -100; 
       const yPosition = element.getBoundingClientRect().top + window.scrollY + yOffset;
       window.scrollTo({ top: yPosition, behavior: 'smooth' });
       }
@@ -76,7 +76,9 @@ export function Main() {
           <div className="edu-item">
             <img src="/imgs/byu-logo.png" alt="BYU logo" />
           </div>
-          <div className="edu-item"></div>
+          <div className="edu-item">
+            <img src="/imgs/ML-logo.png" alt="Machine Learning logo" />
+          </div>
           <div className="edu-item">
 
             <div className='eduInfo'>
@@ -136,7 +138,19 @@ export function Main() {
       <div id="project" className="expSec">
         <h2>Experiences</h2>
         <div className="expGrid">
-          <div className="exp-icon"></div>
+          <div className="exp-icon">
+            <div className='exp-info'>
+              <p>Website Development</p>
+              <br />
+              <a href='https://github.com/Find-MPF/Frontend.git' target="_blank" rel="noopener noreferrer">
+                FindMyProfessor.com
+              </a>
+              <br />
+              <a href='https://github.com/jhwlds/startup-2024.git' target="_blank" rel="noopener noreferrer">
+                Jhwlds.com
+              </a>
+            </div>
+          </div>
           <div className="exp-icon"></div>
           <div className="exp-icon">
             <p>Coming Soon...</p>

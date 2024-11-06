@@ -161,7 +161,7 @@
     text-align: center;
 }
 .edu-item:nth-child(5) > img {
-    width: 160px;
+    width: 155px;
     margin-top: 25px;
 }
 
@@ -250,6 +250,17 @@
     padding: 20px;
     background-color: #520ff7;
     border-radius: 50px;
+}
+
+.exp-info > p:nth-of-type(1) {
+    font-weight: bold;
+    text-align: center;
+}
+
+.exp-info > a:nth-of-type(1),
+.exp-info > a:nth-of-type(2) {
+    font-weight: lighter;
+    color: #fff;
 }
 
 @media (max-width: 600px) {
