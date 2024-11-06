@@ -252,13 +252,14 @@
     border-radius: 50px;
 }
 
-.exp-info > p:nth-of-type(1) {
-    font-weight: bold;
+.exp-info {
     text-align: center;
 }
 
-.exp-info > a:nth-of-type(1),
-.exp-info > a:nth-of-type(2) {
+.exp-info > p:nth-of-type(1) {
+    font-weight: bold;
+}
+.exp-info > a {
     font-weight: lighter;
     color: #fff;
 }

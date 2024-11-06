@@ -146,8 +146,14 @@ export function Main() {
                 FindMyProfessor.com
               </a>
               <br />
+              <br />
               <a href='https://github.com/jhwlds/startup-2024.git' target="_blank" rel="noopener noreferrer">
                 Jhwlds.com
+              </a>
+              <br />
+              <br />
+              <a href='https://jhwlds.wixsite.com/snapmoa' target="_blank" rel="noopener noreferrer">
+                Snapmoa.com
               </a>
             </div>
           </div>
