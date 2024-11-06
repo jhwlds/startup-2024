@@ -3,6 +3,16 @@ import React from 'react';
 import './main.css'; 
 
 export function Main() {
+
+  // 특정 위치로 이동할 때 살짝 더 밑으로 스크롤하는 함수
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      const yOffset = -100; // 원하는 만큼의 추가 스크롤 (여기선 50px 위로 추가 조정)
+      const yPosition = element.getBoundingClientRect().top + window.scrollY + yOffset;
+      window.scrollTo({ top: yPosition, behavior: 'smooth' });
+      }
+  }
   return (
     <main>
       <header>
@@ -37,20 +47,20 @@ export function Main() {
           </div>
 
           <NavLink className="item" to='/game'>
-            <a href="./game.html">Guess Me</a>
+            Guess Me
           </NavLink>
 
-          <div className="item" onClick={() => { window.location.href = '#education' }}>
-            <a href="#education">Education</a>
-          </div>
+          <a className="item" onClick={() => scrollToSection('education')}>
+            Education
+          </a>
 
-          <div className="item" onClick={() => { window.location.href = '#work-experience' }}>
-            <a href="#work-experience">Skills</a>
-          </div>
+          <a className="item" onClick={() => scrollToSection('work-experience')}>
+            Skills
+          </a>
 
-          <div className="item" onClick={() => { window.location.href = '#project' }}>
-            <a href="#project">Experiences</a>
-          </div>
+          <a className="item" onClick={() => scrollToSection('project')}>
+            Experiences
+          </a>
         </div>
       </header>
 
