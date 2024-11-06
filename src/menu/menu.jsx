@@ -1,24 +1,37 @@
-import {NavLink} from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
+import { Link as ScrollLink, scroller } from 'react-scroll';
 import React from 'react';
 import './menu.css';
 
 export function Menu() {
+  const navigate = useNavigate();
+
+  const scrollToSection = (id) => {
+    navigate('/');
+    setTimeout(() => {
+      scroller.scrollTo(id, {
+        duration: 800,
+        delay: 0,
+        smooth: 'easeInOutQuart',
+      });
+    }, 100);
+  };
 
   return (
         <nav className="menu">
           <div className="menuDiv">
             <ul className="menuUl">
               <li>
-                <NavLink style={{ textDecoration: 'none' }} to='/'>✱&nbsp;&nbsp;HOWON JUNG</NavLink>
+                <NavLink style={{ textDecoration: 'none' }} to="/">✱ HOWON JUNG</NavLink>
               </li>
               <li>
-                <a href="#education" style={{ textDecoration: 'none' }}>Education</a>
+                <button onClick={() => scrollToSection('education')}>Education</button>
               </li>
               <li>
-                <a href="#work-experience" style={{ textDecoration: 'none' }}>Skills</a>
+                <button onClick={() => scrollToSection('work-experience')}>Skills</button>
               </li>
               <li>
-                <a href="#project" style={{ textDecoration: 'none' }}>Experiences</a>
+                <button onClick={() => scrollToSection('project')}>Experiences</button>
               </li>
             </ul>
     
