@@ -1,3 +1,4 @@
+import { NavLink} from 'react-router-dom';
 import React from 'react';
 import './main.css'; 
 
@@ -35,9 +36,9 @@ export function Main() {
             </div>
           </div>
 
-          <div className="item" onClick={() => { window.location.href = './game.html' }}>
+          <NavLink className="item" to='/game'>
             <a href="./game.html">Guess Me</a>
-          </div>
+          </NavLink>
 
           <div className="item" onClick={() => { window.location.href = '#education' }}>
             <a href="#education">Education</a>
