@@ -233,6 +233,9 @@
     padding: 20px;
     background-color: #393939;
     border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .exp-icon:nth-child(2) {
     padding: 20px;
