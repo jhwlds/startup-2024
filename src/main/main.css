@@ -158,6 +158,11 @@
     padding: 20px;
     background-color: #520ff7;
     border-radius: 50px;
+    text-align: center;
+}
+.edu-item:nth-child(5) > img {
+    width: 160px;
+    margin-top: 25px;
 }
 
 .skillGrid{

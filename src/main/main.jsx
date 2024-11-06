@@ -87,7 +87,9 @@ export function Main() {
 
           </div>
           <div className="edu-item"></div>
-          <div className="edu-item"></div>
+          <div className="edu-item">
+            <img src="/imgs/byuCs-logo.png" alt="BYU-CS logo" />
+          </div>
         </div>
       </div>
 
