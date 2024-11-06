@@ -29,7 +29,13 @@ export function Main() {
             <div className="profileInfo">
               <h3>Howon Jung</h3>
               <br />
-              <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Aptent sociosqu nulla ultricies ut maecenas.</p>
+
+              <p>
+                As a machine learning enthusiast with web development experience,
+                I’m passionate about building innovative solutions and exploring new trends in computer science.
+                I am excited to apply my skills to machine learning projects.
+              </p>
+
               <br />
               <br />
               <div>
@@ -72,7 +78,13 @@ export function Main() {
           </div>
           <div className="edu-item"></div>
           <div className="edu-item">
-            <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Aptent sociosqu nulla ultricies ut maecenas...</p>
+
+            <div className='eduInfo'>
+              <p>Brigham Young University</p>
+              <br />
+              <p>Computer Science - Emphasis in Machine Learning</p>
+            </div>
+
           </div>
           <div className="edu-item"></div>
           <div className="edu-item"></div>

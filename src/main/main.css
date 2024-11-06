@@ -138,6 +138,16 @@
     align-items: center;
 }
 
+.eduInfo > p:nth-of-type(1) {
+    font-weight: bold;
+    text-align: center;
+}
+
+.eduInfo > p:nth-of-type(2) {
+    font-weight: lighter;
+    text-align: center;
+}
+
 .edu-item:nth-child(4) {
     padding: 20px;
     background-color: #F5F5F5;
