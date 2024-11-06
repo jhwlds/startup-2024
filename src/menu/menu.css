@@ -35,9 +35,10 @@
     padding: 0;              
     margin: 0;             
     font: inherit;           
-    color: inherit;           
+    color: #fff;           
     outline: none;            
-    cursor: pointer;  
+    cursor: pointer;
+    font-weight: lighter;
 }
 
 .playBtn {
