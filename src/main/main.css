@@ -127,9 +127,15 @@
     margin-top: 20px;
 }
 .edu-item:nth-child(2) {
-    padding: 20px;
     background-color: #393939;
     border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edu-item:nth-child(2) > img {
+    width: 150px;
 }
 
 .edu-item:nth-child(3) {
@@ -149,9 +155,15 @@
 }
 
 .edu-item:nth-child(4) {
-    padding: 20px;
     background-color: #F5F5F5;
     border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edu-item:nth-child(4) > img {
+    width: 150px;
 }
 
 .edu-item:nth-child(5) {

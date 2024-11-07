@@ -88,7 +88,9 @@ export function Main() {
             </div>
 
           </div>
-          <div className="edu-item"></div>
+          <div className="edu-item">
+            <img src="/imgs/ML-logo.png" alt="Machine Learning logo" />
+          </div>
           <div className="edu-item">
             <img src="/imgs/byuCs-logo.png" alt="BYU-CS logo" />
           </div>
