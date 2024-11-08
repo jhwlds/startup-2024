@@ -57,6 +57,13 @@ I am going to use the required technologies in the following ways.
 
 ## **React deliverable**
 
+- **Vite** - Created the vite development environment for react web development.
+- **Data Base** - Displayed final score of user at the end of the game. Currently this is stored at local storage, but it will be replaced with the database data later.
+- **WebSocket** - I made the function to display the scores at the rank box . This will be replaced with WebSocket messages later.
+- **Router** - Routing between Menu, Footer, Login, Game page.
+- **Hooks** - I used hooks such as useState to manage state (e.g., user input or score), and useNavigate to handle navigation between pages based on user interactions in the game.
+
+
 ## **Service deliverable**
 
 ## **DB/Login deliverable**
