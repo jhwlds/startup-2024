@@ -62,6 +62,7 @@ I am going to use the required technologies in the following ways.
 - **WebSocket** - I made the function to display the scores at the rank box . This will be replaced with WebSocket messages later.
 - **Router** - Routing between Menu, Footer, Login, Game page.
 - **Hooks** - I used hooks such as useState to manage state (e.g., user input or score), and useNavigate to handle navigation between pages based on user interactions in the game.
+- **Login** - When you press enter or the login button it takes you to game page.
 
 
 ## **Service deliverable**
