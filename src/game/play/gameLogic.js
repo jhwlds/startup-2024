@@ -1,4 +1,3 @@
-// gameLogic.js
 import { useState } from 'react';
 import questions from './questions';
 
@@ -8,6 +7,8 @@ export const useGameLogic = () => {
     const [isGameOver, setIsGameOver] = useState(false);
 
     const handleAnswerClick = (selectedAnswer) => {
+        if (isGameOver) return;
+
         const correctAnswer = questions[currentQuestionIndex].correctAnswer;
         if (selectedAnswer === correctAnswer) {
             setScore((prevScore) => prevScore + 1);
