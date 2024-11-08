@@ -12,7 +12,7 @@ function App() {
       <Menu />
       <Routes>
         <Route path='/' element={<Main />} />
-        <Route path='/game' element={<Game />} />
+        <Route path='/game/*' element={<Game />} />
       </Routes>
       <Footer />
     </BrowserRouter>
