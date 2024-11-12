@@ -24,9 +24,9 @@ export function Login() {
                         value={userName}
                         onChange={(e) => setUserName(e.target.value)} 
                     />
-                    <NavLink to={`/game/play?name=${userName}`}>
+                    <button onClick={() => navigate(`/game/play?name=${userName}`)}>
                         Log In
-                    </NavLink>
+                    </button>
                 </div>
             </div>
         </header>
